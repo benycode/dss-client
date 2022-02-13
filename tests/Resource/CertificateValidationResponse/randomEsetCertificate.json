@@ -1,0 +1,208 @@
+{
+  "diagnosticData" : {
+    "DocumentName" : null,
+    "ValidationDate" : "2022-01-09T11:25:01Z",
+    "ContainerInfo" : null,
+    "Signature" : null,
+    "Certificate" : [ {
+      "Id" : "C-130E8A844934A8563663BF6A2E27AADE2E4418D17E0B5EDAF17EC06DB0E50A5A",
+      "SubjectDistinguishedName" : [ {
+        "value" : "c=sk,o=eset\\, spol. s r. o.,cn=eset ssl filter ca",
+        "Format" : "CANONICAL"
+      }, {
+        "value" : "C=SK,O=ESET\\, spol. s r. o.,CN=ESET SSL Filter CA",
+        "Format" : "RFC2253"
+      } ],
+      "IssuerDistinguishedName" : [ {
+        "value" : "c=sk,o=eset\\, spol. s r. o.,cn=eset ssl filter ca",
+        "Format" : "CANONICAL"
+      }, {
+        "value" : "C=SK,O=ESET\\, spol. s r. o.,CN=ESET SSL Filter CA",
+        "Format" : "RFC2253"
+      } ],
+      "SerialNumber" : 66047738372942723461930335409922617671,
+      "SubjectSerialNumber" : null,
+      "CommonName" : "ESET SSL Filter CA",
+      "Locality" : null,
+      "State" : null,
+      "CountryName" : "SK",
+      "OrganizationIdentifier" : null,
+      "OrganizationName" : "ESET, spol. s r. o.",
+      "OrganizationalUnit" : null,
+      "Title" : null,
+      "GivenName" : null,
+      "Surname" : null,
+      "Pseudonym" : null,
+      "Email" : null,
+      "subjectAlternativeName" : null,
+      "aiaUrl" : [ ],
+      "crlUrl" : [ ],
+      "ocspServerUrl" : [ ],
+      "Source" : [ "UNKNOWN" ],
+      "NotAfter" : "2031-12-21T10:27:48Z",
+      "NotBefore" : "2021-12-23T10:27:48Z",
+      "PublicKeySize" : 2048,
+      "PublicKeyEncryptionAlgo" : "RSA",
+      "EntityKey" : "PK-5EBF7200C170111ECA3C180F3BDC7545A447FD9EBED02C6FFA03809D2500B6A5",
+      "KeyUsage" : [ "keyCertSign" ],
+      "extendedKeyUsagesOid" : [ ],
+      "IdPkixOcspNoCheck" : false,
+      "BasicSignature" : {
+        "EncryptionAlgoUsedToSignThisToken" : "RSA",
+        "KeyLengthUsedToSignThisToken" : "2048",
+        "DigestAlgoUsedToSignThisToken" : "SHA256",
+        "MaskGenerationFunctionUsedToSignThisToken" : null,
+        "SignatureIntact" : true,
+        "SignatureValid" : true
+      },
+      "SigningCertificate" : null,
+      "ChainItem" : [ ],
+      "Trusted" : false,
+      "SelfSigned" : true,
+      "certificatePolicy" : [ ],
+      "QcStatements" : null,
+      "TrustedServiceProvider" : [ ],
+      "CertificateRevocation" : [ ],
+      "Base64Encoded" : null,
+      "DigestAlgoAndValue" : {
+        "DigestMethod" : "SHA256",
+        "DigestValue" : "Ew6KhEk0qFY2Y79qLieq3i5EGNF+C17a8X7AbbDlClo=",
+        "match" : null
+      }
+    } ],
+    "Revocation" : [ ],
+    "Timestamp" : null,
+    "OrphanTokens" : null,
+    "SignerData" : null,
+    "TrustedList" : [ ]
+  },
+  "simpleCertificateReport" : {
+    "ChainItem" : [ {
+      "id" : "C-130E8A844934A8563663BF6A2E27AADE2E4418D17E0B5EDAF17EC06DB0E50A5A",
+      "subject" : {
+        "commonName" : "ESET SSL Filter CA",
+        "surname" : null,
+        "givenName" : null,
+        "pseudonym" : null,
+        "organizationName" : "ESET, spol. s r. o.",
+        "organizationUnit" : null,
+        "email" : null,
+        "locality" : null,
+        "state" : null,
+        "country" : "SK"
+      },
+      "issuerId" : null,
+      "notBefore" : "2021-12-23T10:27:48Z",
+      "notAfter" : "2031-12-21T10:27:48Z",
+      "keyUsage" : [ "keyCertSign" ],
+      "extendedKeyUsage" : null,
+      "ocspUrl" : null,
+      "crlUrl" : null,
+      "aiaUrl" : null,
+      "cpsUrl" : null,
+      "pdsUrl" : null,
+      "qualificationAtIssuance" : "N/A",
+      "qualificationAtValidation" : "N/A",
+      "revocation" : {
+        "productionDate" : null,
+        "revocationDate" : null,
+        "revocationReason" : null
+      },
+      "trustAnchor" : null,
+      "Indication" : "INDETERMINATE",
+      "SubIndication" : "NO_CERTIFICATE_CHAIN_FOUND"
+    } ],
+    "ValidationTime" : "2022-01-09T11:25:01Z"
+  },
+  "detailedReport" : {
+    "signatureOrTimestampOrCertificate" : [ {
+      "Certificate" : {
+        "ValidationCertificateQualification" : [ ],
+        "Constraint" : [ {
+          "Name" : {
+            "value" : "Is the result of the Basic Building Block conclusive?",
+            "Key" : "BBB_ACCEPT"
+          },
+          "Status" : "WARNING",
+          "Error" : null,
+          "Warning" : {
+            "value" : "The result of the Basic Building Block is not conclusive!",
+            "Key" : "BBB_ACCEPT_ANS"
+          },
+          "Info" : null,
+          "AdditionalInfo" : null,
+          "Id" : null,
+          "BlockType" : null
+        } ],
+        "Conclusion" : {
+          "Indication" : "INDETERMINATE",
+          "SubIndication" : null,
+          "Errors" : [ ],
+          "Warnings" : [ {
+            "value" : "The result of the Basic Building Block is not conclusive!",
+            "Key" : "BBB_ACCEPT_ANS"
+          } ],
+          "Infos" : null
+        },
+        "Title" : "Certificate Qualification",
+        "Id" : "C-130E8A844934A8563663BF6A2E27AADE2E4418D17E0B5EDAF17EC06DB0E50A5A"
+      }
+    } ],
+    "BasicBuildingBlocks" : [ {
+      "FC" : null,
+      "ISC" : null,
+      "VCI" : null,
+      "XCV" : {
+        "SubXCV" : [ ],
+        "Constraint" : [ {
+          "Name" : {
+            "value" : "Can the certificate chain be built till a trust anchor?",
+            "Key" : "BBB_XCV_CCCBB"
+          },
+          "Status" : "NOT OK",
+          "Error" : {
+            "value" : "The certificate chain is not trusted, it does not contain a trust anchor.",
+            "Key" : "BBB_XCV_CCCBB_ANS"
+          },
+          "Warning" : null,
+          "Info" : null,
+          "AdditionalInfo" : null,
+          "Id" : null,
+          "BlockType" : null
+        } ],
+        "Conclusion" : {
+          "Indication" : "INDETERMINATE",
+          "SubIndication" : "NO_CERTIFICATE_CHAIN_FOUND",
+          "Errors" : [ {
+            "value" : "The certificate chain is not trusted, it does not contain a trust anchor.",
+            "Key" : "BBB_XCV_CCCBB_ANS"
+          } ],
+          "Warnings" : [ ],
+          "Infos" : [ ]
+        },
+        "Title" : "X509 Certificate Validation"
+      },
+      "CV" : null,
+      "SAV" : null,
+      "PSV" : null,
+      "PCV" : null,
+      "VTS" : null,
+      "CertificateChain" : null,
+      "Conclusion" : {
+        "Indication" : "INDETERMINATE",
+        "SubIndication" : "NO_CERTIFICATE_CHAIN_FOUND",
+        "Errors" : [ {
+          "value" : "The certificate chain is not trusted, it does not contain a trust anchor.",
+          "Key" : "BBB_XCV_CCCBB_ANS"
+        } ],
+        "Warnings" : [ ],
+        "Infos" : [ ]
+      },
+      "Id" : "C-130E8A844934A8563663BF6A2E27AADE2E4418D17E0B5EDAF17EC06DB0E50A5A",
+      "Type" : "CERTIFICATE"
+    } ],
+    "TLAnalysis" : [ ],
+    "Semantic" : null,
+    "ValidationTime" : null
+  }
+}

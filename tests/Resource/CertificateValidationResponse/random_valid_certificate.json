@@ -1,0 +1,1533 @@
+{
+  "diagnosticData" : {
+    "DocumentName" : null,
+    "ValidationDate" : "2022-01-09T16:23:24Z",
+    "ContainerInfo" : null,
+    "Signature" : null,
+    "Certificate" : [ {
+      "Id" : "C-27BB49D206B6DEC161EBB8EA739530E90AC68498D2EEA05A7ED9603D1DCE0FD5",
+      "SubjectDistinguishedName" : [ {
+        "value" : "cn=digitalsign qualified ca g1,o=digitalsign certificadora digital,c=pt",
+        "Format" : "CANONICAL"
+      }, {
+        "value" : "CN=DIGITALSIGN QUALIFIED CA G1,O=DigitalSign Certificadora Digital,C=PT",
+        "Format" : "RFC2253"
+      } ],
+      "IssuerDistinguishedName" : [ {
+        "value" : "cn=digitalsign global root rsa ca,o=digitalsign certificadora digital,c=pt",
+        "Format" : "CANONICAL"
+      }, {
+        "value" : "CN=DIGITALSIGN GLOBAL ROOT RSA CA,O=DigitalSign Certificadora Digital,C=PT",
+        "Format" : "RFC2253"
+      } ],
+      "SerialNumber" : 330444127560240380976396101945240260095972967226,
+      "SubjectSerialNumber" : null,
+      "CommonName" : "DIGITALSIGN QUALIFIED CA G1",
+      "Locality" : null,
+      "State" : null,
+      "CountryName" : "PT",
+      "OrganizationIdentifier" : null,
+      "OrganizationName" : "DigitalSign Certificadora Digital",
+      "OrganizationalUnit" : null,
+      "Title" : null,
+      "GivenName" : null,
+      "Surname" : null,
+      "Pseudonym" : null,
+      "Email" : null,
+      "subjectAlternativeName" : null,
+      "aiaUrl" : [ "http://root-rsa.digitalsign.pt/DIGITALSIGNGLOBALROOTRSACA.p7b" ],
+      "crlUrl" : [ "http://root-rsa.digitalsign.pt/DIGITALSIGNGLOBALROOTRSACA.crl" ],
+      "ocspServerUrl" : [ ],
+      "Source" : [ "TRUSTED_LIST", "OCSP_RESPONSE" ],
+      "NotAfter" : "2033-01-19T10:11:50Z",
+      "NotBefore" : "2021-01-22T10:11:50Z",
+      "PublicKeySize" : 4096,
+      "PublicKeyEncryptionAlgo" : "RSA",
+      "EntityKey" : "PK-18338705E7A9E94ABE47B13573F79731526C0444CF90A23FCD7F8E248E3D108B",
+      "KeyUsage" : [ "keyCertSign", "crlSign" ],
+      "extendedKeyUsagesOid" : [ {
+        "value" : "1.3.6.1.5.5.7.3.2",
+        "Description" : "clientAuth"
+      }, {
+        "value" : "1.3.6.1.5.5.7.3.4",
+        "Description" : "emailProtection"
+      } ],
+      "IdPkixOcspNoCheck" : false,
+      "BasicSignature" : {
+        "EncryptionAlgoUsedToSignThisToken" : "RSA",
+        "KeyLengthUsedToSignThisToken" : "4096",
+        "DigestAlgoUsedToSignThisToken" : "SHA512",
+        "MaskGenerationFunctionUsedToSignThisToken" : null,
+        "SignatureIntact" : true,
+        "SignatureValid" : true
+      },
+      "SigningCertificate" : {
+        "PublicKey" : null,
+        "Certificate" : "C-82BD5D851ACF7F6E1BA7BFCBC53030D0E7BC3C21DF772D858CAB41D199BDF595"
+      },
+      "ChainItem" : [ {
+        "Certificate" : "C-82BD5D851ACF7F6E1BA7BFCBC53030D0E7BC3C21DF772D858CAB41D199BDF595"
+      } ],
+      "Trusted" : true,
+      "SelfSigned" : false,
+      "certificatePolicy" : [ {
+        "value" : "1.3.6.1.4.1.25596.4.1.1",
+        "Description" : null,
+        "cpsUrl" : "http://pki.digitalsign.pt"
+      } ],
+      "QcStatements" : null,
+      "TrustedServiceProvider" : [ {
+        "TSPName" : [ {
+          "value" : "DigitalSign - Certificadora Digital",
+          "lang" : "pt"
+        }, {
+          "value" : "DigitalSign - Certificadora Digital",
+          "lang" : "en"
+        } ],
+        "TSPTradeName" : [ {
+          "value" : "DigitalSign - Certificadora Digital, S.A.",
+          "lang" : "pt"
+        }, {
+          "value" : "DigitalSign - Certificadora Digital, S.A.",
+          "lang" : "en"
+        }, {
+          "value" : "British Telecommunications plc",
+          "lang" : "en"
+        }, {
+          "value" : "DigitalSign Certificadora Digital",
+          "lang" : "en"
+        } ],
+        "TSPRegistrationIdentifier" : [ "VATPT-507015851" ],
+        "TrustedService" : [ {
+          "ServiceName" : [ {
+            "value" : "DIGITALSIGN QUALIFIED CA G1",
+            "lang" : "en"
+          } ],
+          "ServiceType" : "http://uri.etsi.org/TrstSvc/Svctype/CA/QC",
+          "Status" : "http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted",
+          "StartDate" : "2021-03-25T00:00:00Z",
+          "EndDate" : null,
+          "Qualifier" : null,
+          "AdditionalServiceInfoUri" : [ "http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSignatures", "http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSeals" ],
+          "ServiceSupplyPoint" : null,
+          "ExpiredCertsRevocationInfo" : null,
+          "ServiceDigitalIdentifier" : "C-27BB49D206B6DEC161EBB8EA739530E90AC68498D2EEA05A7ED9603D1DCE0FD5"
+        } ],
+        "TL" : "TL-53044736BF44D260472AE794EC1BEA9CDA6E2833864BD33D3C95E7EFA5F47A06",
+        "LOTL" : "LOTL-EC2AE37FE9A43B48B1CFE2A57EBEE2BD6373EDFF36537EB1BC905747ACBF4C3B"
+      } ],
+      "CertificateRevocation" : [ ],
+      "Base64Encoded" : null,
+      "DigestAlgoAndValue" : {
+        "DigestMethod" : "SHA256",
+        "DigestValue" : "J7tJ0ga23sFh67jqc5Uw6QrGhJjS7qBaftlgPR3OD9U=",
+        "match" : null
+      }
+    }, {
+      "Id" : "C-82BD5D851ACF7F6E1BA7BFCBC53030D0E7BC3C21DF772D858CAB41D199BDF595",
+      "SubjectDistinguishedName" : [ {
+        "value" : "cn=digitalsign global root rsa ca,o=digitalsign certificadora digital,c=pt",
+        "Format" : "CANONICAL"
+      }, {
+        "value" : "CN=DIGITALSIGN GLOBAL ROOT RSA CA,O=DigitalSign Certificadora Digital,C=PT",
+        "Format" : "RFC2253"
+      } ],
+      "IssuerDistinguishedName" : [ {
+        "value" : "cn=digitalsign global root rsa ca,o=digitalsign certificadora digital,c=pt",
+        "Format" : "CANONICAL"
+      }, {
+        "value" : "CN=DIGITALSIGN GLOBAL ROOT RSA CA,O=DigitalSign Certificadora Digital,C=PT",
+        "Format" : "RFC2253"
+      } ],
+      "SerialNumber" : 532938399430857273295062163423481632018408969607,
+      "SubjectSerialNumber" : null,
+      "CommonName" : "DIGITALSIGN GLOBAL ROOT RSA CA",
+      "Locality" : null,
+      "State" : null,
+      "CountryName" : "PT",
+      "OrganizationIdentifier" : null,
+      "OrganizationName" : "DigitalSign Certificadora Digital",
+      "OrganizationalUnit" : null,
+      "Title" : null,
+      "GivenName" : null,
+      "Surname" : null,
+      "Pseudonym" : null,
+      "Email" : null,
+      "subjectAlternativeName" : null,
+      "aiaUrl" : [ ],
+      "crlUrl" : [ ],
+      "ocspServerUrl" : [ ],
+      "Source" : [ "AIA" ],
+      "NotAfter" : "2046-01-15T10:50:34Z",
+      "NotBefore" : "2021-01-21T10:50:34Z",
+      "PublicKeySize" : 4096,
+      "PublicKeyEncryptionAlgo" : "RSA",
+      "EntityKey" : "PK-152CDFF99E4895AE8FD4CDC7B19D8DADABD3C3DD168BCF20444419DD5C72BC3E",
+      "KeyUsage" : [ "keyCertSign", "crlSign" ],
+      "extendedKeyUsagesOid" : [ ],
+      "IdPkixOcspNoCheck" : false,
+      "BasicSignature" : {
+        "EncryptionAlgoUsedToSignThisToken" : "RSA",
+        "KeyLengthUsedToSignThisToken" : "4096",
+        "DigestAlgoUsedToSignThisToken" : "SHA512",
+        "MaskGenerationFunctionUsedToSignThisToken" : null,
+        "SignatureIntact" : true,
+        "SignatureValid" : true
+      },
+      "SigningCertificate" : null,
+      "ChainItem" : [ ],
+      "Trusted" : false,
+      "SelfSigned" : true,
+      "certificatePolicy" : [ ],
+      "QcStatements" : null,
+      "TrustedServiceProvider" : [ ],
+      "CertificateRevocation" : [ ],
+      "Base64Encoded" : null,
+      "DigestAlgoAndValue" : {
+        "DigestMethod" : "SHA256",
+        "DigestValue" : "gr1dhRrPf24bp7/LxTAw0Oe8PCHfdy2FjKtB0Zm99ZU=",
+        "match" : null
+      }
+    }, {
+      "Id" : "C-C4D1E892E325AB641FA6111EB7D8115302D7BDD91807525EC0E07BC66EF07951",
+      "SubjectDistinguishedName" : [ {
+        "value" : "c=pt,o=digitalsign certificadora digital,cn=ocsp digitalsign qualified ca g1",
+        "Format" : "CANONICAL"
+      }, {
+        "value" : "C=PT,O=DigitalSign Certificadora Digital,CN=OCSP DIGITALSIGN QUALIFIED CA G1",
+        "Format" : "RFC2253"
+      } ],
+      "IssuerDistinguishedName" : [ {
+        "value" : "cn=digitalsign qualified ca g1,o=digitalsign certificadora digital,c=pt",
+        "Format" : "CANONICAL"
+      }, {
+        "value" : "CN=DIGITALSIGN QUALIFIED CA G1,O=DigitalSign Certificadora Digital,C=PT",
+        "Format" : "RFC2253"
+      } ],
+      "SerialNumber" : 326214055514543252758336642769349650377329697116,
+      "SubjectSerialNumber" : null,
+      "CommonName" : "OCSP DIGITALSIGN QUALIFIED CA G1",
+      "Locality" : null,
+      "State" : null,
+      "CountryName" : "PT",
+      "OrganizationIdentifier" : null,
+      "OrganizationName" : "DigitalSign Certificadora Digital",
+      "OrganizationalUnit" : null,
+      "Title" : null,
+      "GivenName" : null,
+      "Surname" : null,
+      "Pseudonym" : null,
+      "Email" : null,
+      "subjectAlternativeName" : null,
+      "aiaUrl" : [ "http://qca-g1.digitalsign.pt/DIGITALSIGNQUALIFIEDCAG1.p7b" ],
+      "crlUrl" : [ ],
+      "ocspServerUrl" : [ ],
+      "Source" : [ "OCSP_RESPONSE" ],
+      "NotAfter" : "2033-01-19T10:11:50Z",
+      "NotBefore" : "2021-01-28T10:30:26Z",
+      "PublicKeySize" : 2048,
+      "PublicKeyEncryptionAlgo" : "RSA",
+      "EntityKey" : "PK-21FB065239724E1BC49FF284AD37524DAE52672EC31A23B169566DF7CD6293B8",
+      "KeyUsage" : [ "digitalSignature" ],
+      "extendedKeyUsagesOid" : [ {
+        "value" : "1.3.6.1.5.5.7.3.9",
+        "Description" : "ocspSigning"
+      } ],
+      "IdPkixOcspNoCheck" : true,
+      "BasicSignature" : {
+        "EncryptionAlgoUsedToSignThisToken" : "RSA",
+        "KeyLengthUsedToSignThisToken" : "4096",
+        "DigestAlgoUsedToSignThisToken" : "SHA512",
+        "MaskGenerationFunctionUsedToSignThisToken" : null,
+        "SignatureIntact" : true,
+        "SignatureValid" : true
+      },
+      "SigningCertificate" : {
+        "PublicKey" : null,
+        "Certificate" : "C-27BB49D206B6DEC161EBB8EA739530E90AC68498D2EEA05A7ED9603D1DCE0FD5"
+      },
+      "ChainItem" : [ {
+        "Certificate" : "C-27BB49D206B6DEC161EBB8EA739530E90AC68498D2EEA05A7ED9603D1DCE0FD5"
+      }, {
+        "Certificate" : "C-82BD5D851ACF7F6E1BA7BFCBC53030D0E7BC3C21DF772D858CAB41D199BDF595"
+      } ],
+      "Trusted" : false,
+      "SelfSigned" : false,
+      "certificatePolicy" : [ {
+        "value" : "1.3.6.1.4.1.25596.4.1.1",
+        "Description" : null,
+        "cpsUrl" : "http://pki.digitalsign.pt"
+      }, {
+        "value" : "1.3.6.1.4.1.25596.4.2.1.1.1.1",
+        "Description" : null,
+        "cpsUrl" : null
+      } ],
+      "QcStatements" : null,
+      "TrustedServiceProvider" : [ {
+        "TSPName" : [ {
+          "value" : "DigitalSign - Certificadora Digital",
+          "lang" : "pt"
+        }, {
+          "value" : "DigitalSign - Certificadora Digital",
+          "lang" : "en"
+        } ],
+        "TSPTradeName" : [ {
+          "value" : "DigitalSign - Certificadora Digital, S.A.",
+          "lang" : "pt"
+        }, {
+          "value" : "DigitalSign - Certificadora Digital, S.A.",
+          "lang" : "en"
+        }, {
+          "value" : "British Telecommunications plc",
+          "lang" : "en"
+        }, {
+          "value" : "DigitalSign Certificadora Digital",
+          "lang" : "en"
+        } ],
+        "TSPRegistrationIdentifier" : [ "VATPT-507015851" ],
+        "TrustedService" : [ {
+          "ServiceName" : [ {
+            "value" : "DIGITALSIGN QUALIFIED CA G1",
+            "lang" : "en"
+          } ],
+          "ServiceType" : "http://uri.etsi.org/TrstSvc/Svctype/CA/QC",
+          "Status" : "http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted",
+          "StartDate" : "2021-03-25T00:00:00Z",
+          "EndDate" : null,
+          "Qualifier" : null,
+          "AdditionalServiceInfoUri" : [ "http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSignatures", "http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSeals" ],
+          "ServiceSupplyPoint" : null,
+          "ExpiredCertsRevocationInfo" : null,
+          "ServiceDigitalIdentifier" : "C-27BB49D206B6DEC161EBB8EA739530E90AC68498D2EEA05A7ED9603D1DCE0FD5"
+        } ],
+        "TL" : "TL-53044736BF44D260472AE794EC1BEA9CDA6E2833864BD33D3C95E7EFA5F47A06",
+        "LOTL" : "LOTL-EC2AE37FE9A43B48B1CFE2A57EBEE2BD6373EDFF36537EB1BC905747ACBF4C3B"
+      } ],
+      "CertificateRevocation" : null,
+      "Base64Encoded" : null,
+      "DigestAlgoAndValue" : {
+        "DigestMethod" : "SHA256",
+        "DigestValue" : "xNHokuMlq2QfphEet9gRUwLXvdkYB1JewOB7xm7weVE=",
+        "match" : null
+      }
+    }, {
+      "Id" : "C-C7A2A670C40EB3D952ABAF5A6F84E7DA9EF58C3662DF54774F2C350B5C95D8F3",
+      "SubjectDistinguishedName" : [ {
+        "value" : "cn=jeroen arnold l rathe,ou=remoteqscdmanagement,2.5.4.42=#0c0f4a45524f454e2041524e4f4c44204c,2.5.4.4=#0c055241544845,2.5.4.5=#1314504e4f42452d3539322d353434343735302d3237,1.2.840.113549.1.9.1=#16196a65726f656e2e72617468654065632e6575726f70612e6575,ou=entitlement - ec official,o=european commission,2.5.4.97=#0c1a4c454958472d3235343930305a4e594131464c55513955333933,ou=certificate profile - qualified certificate - member,c=be",
+        "Format" : "CANONICAL"
+      }, {
+        "value" : "CN=JEROEN ARNOLD L RATHE,OU=RemoteQSCDManagement,2.5.4.42=#0c0f4a45524f454e2041524e4f4c44204c,2.5.4.4=#0c055241544845,2.5.4.5=#1314504e4f42452d3539322d353434343735302d3237,1.2.840.113549.1.9.1=#16196a65726f656e2e72617468654065632e6575726f70612e6575,OU=Entitlement - EC OFFICIAL,O=EUROPEAN COMMISSION,2.5.4.97=#0c1a4c454958472d3235343930305a4e594131464c55513955333933,OU=Certificate Profile - Qualified Certificate - Member,C=BE",
+        "Format" : "RFC2253"
+      } ],
+      "IssuerDistinguishedName" : [ {
+        "value" : "cn=digitalsign qualified ca g1,o=digitalsign certificadora digital,c=pt",
+        "Format" : "CANONICAL"
+      }, {
+        "value" : "CN=DIGITALSIGN QUALIFIED CA G1,O=DigitalSign Certificadora Digital,C=PT",
+        "Format" : "RFC2253"
+      } ],
+      "SerialNumber" : 433011618542725737722850980443092742278162326640,
+      "SubjectSerialNumber" : "PNOBE-592-5444750-27",
+      "CommonName" : "JEROEN ARNOLD L RATHE",
+      "Locality" : null,
+      "State" : null,
+      "CountryName" : "BE",
+      "OrganizationIdentifier" : "LEIXG-254900ZNYA1FLUQ9U393",
+      "OrganizationName" : "EUROPEAN COMMISSION",
+      "OrganizationalUnit" : "Certificate Profile - Qualified Certificate - Member",
+      "Title" : null,
+      "GivenName" : "JEROEN ARNOLD L",
+      "Surname" : "RATHE",
+      "Pseudonym" : null,
+      "Email" : "jeroen.rathe@ec.europa.eu",
+      "subjectAlternativeName" : [ "jeroen.rathe@ec.europa.eu" ],
+      "aiaUrl" : [ "http://qca-g1.digitalsign.pt/DIGITALSIGNQUALIFIEDCAG1.p7b" ],
+      "crlUrl" : [ "http://qca-g1.digitalsign.pt/DIGITALSIGNQUALIFIEDCAG1.crl" ],
+      "ocspServerUrl" : [ "http://qca-g1.digitalsign.pt/ocsp" ],
+      "Source" : [ "UNKNOWN" ],
+      "NotAfter" : "2023-04-09T09:12:58Z",
+      "NotBefore" : "2021-10-01T09:12:58Z",
+      "PublicKeySize" : 2048,
+      "PublicKeyEncryptionAlgo" : "RSA",
+      "EntityKey" : "PK-6A9FBD9F69A6AEF5E2D49C86D647C339442ADA9C21B126F43E1ADB48D7D17EFC",
+      "KeyUsage" : [ "nonRepudiation" ],
+      "extendedKeyUsagesOid" : [ {
+        "value" : "1.3.6.1.5.5.7.3.2",
+        "Description" : "clientAuth"
+      }, {
+        "value" : "1.3.6.1.5.5.7.3.4",
+        "Description" : "emailProtection"
+      } ],
+      "IdPkixOcspNoCheck" : false,
+      "BasicSignature" : {
+        "EncryptionAlgoUsedToSignThisToken" : "RSA",
+        "KeyLengthUsedToSignThisToken" : "4096",
+        "DigestAlgoUsedToSignThisToken" : "SHA512",
+        "MaskGenerationFunctionUsedToSignThisToken" : null,
+        "SignatureIntact" : true,
+        "SignatureValid" : true
+      },
+      "SigningCertificate" : {
+        "PublicKey" : null,
+        "Certificate" : "C-27BB49D206B6DEC161EBB8EA739530E90AC68498D2EEA05A7ED9603D1DCE0FD5"
+      },
+      "ChainItem" : [ {
+        "Certificate" : "C-27BB49D206B6DEC161EBB8EA739530E90AC68498D2EEA05A7ED9603D1DCE0FD5"
+      }, {
+        "Certificate" : "C-82BD5D851ACF7F6E1BA7BFCBC53030D0E7BC3C21DF772D858CAB41D199BDF595"
+      } ],
+      "Trusted" : false,
+      "SelfSigned" : false,
+      "certificatePolicy" : [ {
+        "value" : "1.3.6.1.4.1.25596.4.1.1",
+        "Description" : null,
+        "cpsUrl" : "http://pki.digitalsign.pt"
+      }, {
+        "value" : "1.3.6.1.4.1.25596.4.2.1.1.1.4",
+        "Description" : null,
+        "cpsUrl" : null
+      }, {
+        "value" : "0.4.0.194112.1.2",
+        "Description" : "qcp-natural-qscd",
+        "cpsUrl" : null
+      } ],
+      "QcStatements" : {
+        "QcCompliance" : {
+          "present" : true
+        },
+        "QcEuLimitValue" : null,
+        "QcEuRetentionPeriod" : null,
+        "QcSSCD" : {
+          "present" : true
+        },
+        "PdsLocation" : [ {
+          "value" : "https://qca-g1.digitalsign.pt/PDS_pt.pdf",
+          "lang" : "pt"
+        }, {
+          "value" : "https://qca-g1.digitalsign.pt/PDS_en.pdf",
+          "lang" : "en"
+        } ],
+        "QcType" : [ {
+          "value" : "0.4.0.1862.1.6.1",
+          "Description" : "qc-type-esign"
+        } ],
+        "CountryName" : [ ],
+        "SemanticsIdentifier" : {
+          "value" : "0.4.0.194121.1.2",
+          "Description" : "Semantics identifier for legal person"
+        },
+        "PSD2QcInfo" : null
+      },
+      "TrustedServiceProvider" : [ {
+        "TSPName" : [ {
+          "value" : "DigitalSign - Certificadora Digital",
+          "lang" : "pt"
+        }, {
+          "value" : "DigitalSign - Certificadora Digital",
+          "lang" : "en"
+        } ],
+        "TSPTradeName" : [ {
+          "value" : "DigitalSign - Certificadora Digital, S.A.",
+          "lang" : "pt"
+        }, {
+          "value" : "DigitalSign - Certificadora Digital, S.A.",
+          "lang" : "en"
+        }, {
+          "value" : "British Telecommunications plc",
+          "lang" : "en"
+        }, {
+          "value" : "DigitalSign Certificadora Digital",
+          "lang" : "en"
+        } ],
+        "TSPRegistrationIdentifier" : [ "VATPT-507015851" ],
+        "TrustedService" : [ {
+          "ServiceName" : [ {
+            "value" : "DIGITALSIGN QUALIFIED CA G1",
+            "lang" : "en"
+          } ],
+          "ServiceType" : "http://uri.etsi.org/TrstSvc/Svctype/CA/QC",
+          "Status" : "http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted",
+          "StartDate" : "2021-03-25T00:00:00Z",
+          "EndDate" : null,
+          "Qualifier" : [ ],
+          "AdditionalServiceInfoUri" : [ "http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSignatures", "http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSeals" ],
+          "ServiceSupplyPoint" : null,
+          "ExpiredCertsRevocationInfo" : null,
+          "ServiceDigitalIdentifier" : "C-27BB49D206B6DEC161EBB8EA739530E90AC68498D2EEA05A7ED9603D1DCE0FD5"
+        } ],
+        "TL" : "TL-53044736BF44D260472AE794EC1BEA9CDA6E2833864BD33D3C95E7EFA5F47A06",
+        "LOTL" : "LOTL-EC2AE37FE9A43B48B1CFE2A57EBEE2BD6373EDFF36537EB1BC905747ACBF4C3B"
+      } ],
+      "CertificateRevocation" : [ {
+        "Status" : "GOOD",
+        "Reason" : null,
+        "RevocationDate" : null,
+        "Revocation" : "R-AE3486EBDCECF27E02EC738E35611A2023AA225D58A0A467B99F559061A7018F"
+      } ],
+      "Base64Encoded" : null,
+      "DigestAlgoAndValue" : {
+        "DigestMethod" : "SHA256",
+        "DigestValue" : "x6KmcMQOs9lSq69ab4Tn2p71jDZi31R3Tyw1C1yV2PM=",
+        "match" : null
+      }
+    } ],
+    "Revocation" : [ {
+      "Id" : "R-AE3486EBDCECF27E02EC738E35611A2023AA225D58A0A467B99F559061A7018F",
+      "Origin" : "EXTERNAL",
+      "Type" : "OCSP",
+      "SourceAddress" : "http://qca-g1.digitalsign.pt/ocsp",
+      "ProductionDate" : "2022-01-09T16:23:24Z",
+      "ThisUpdate" : "2022-01-09T16:23:24Z",
+      "NextUpdate" : "2022-01-10T00:23:24Z",
+      "ExpiredCertsOnCRL" : null,
+      "ArchiveCutOff" : null,
+      "CertHashExtensionPresent" : false,
+      "CertHashExtensionMatch" : false,
+      "BasicSignature" : {
+        "EncryptionAlgoUsedToSignThisToken" : "RSA",
+        "KeyLengthUsedToSignThisToken" : "2048",
+        "DigestAlgoUsedToSignThisToken" : "SHA256",
+        "MaskGenerationFunctionUsedToSignThisToken" : null,
+        "SignatureIntact" : true,
+        "SignatureValid" : true
+      },
+      "SigningCertificate" : {
+        "PublicKey" : null,
+        "Certificate" : "C-C4D1E892E325AB641FA6111EB7D8115302D7BDD91807525EC0E07BC66EF07951"
+      },
+      "ChainItem" : [ {
+        "Certificate" : "C-C4D1E892E325AB641FA6111EB7D8115302D7BDD91807525EC0E07BC66EF07951"
+      }, {
+        "Certificate" : "C-27BB49D206B6DEC161EBB8EA739530E90AC68498D2EEA05A7ED9603D1DCE0FD5"
+      }, {
+        "Certificate" : "C-82BD5D851ACF7F6E1BA7BFCBC53030D0E7BC3C21DF772D858CAB41D199BDF595"
+      } ],
+      "FoundCertificates" : {
+        "RelatedCertificate" : [ {
+          "Origin" : [ "BASIC_OCSP_RESP" ],
+          "CertificateRef" : null,
+          "Certificate" : "C-27BB49D206B6DEC161EBB8EA739530E90AC68498D2EEA05A7ED9603D1DCE0FD5"
+        }, {
+          "Origin" : [ "BASIC_OCSP_RESP" ],
+          "CertificateRef" : [ {
+            "Origin" : "SIGNING_CERTIFICATE",
+            "IssuerSerial" : null,
+            "DigestAlgoAndValue" : null,
+            "SerialInfo" : {
+              "IssuerName" : null,
+              "SerialNumber" : null,
+              "Ski" : "bPtib5+esFYOcfOhhbqu/hfFQ8A=",
+              "Current" : null
+            }
+          } ],
+          "Certificate" : "C-C4D1E892E325AB641FA6111EB7D8115302D7BDD91807525EC0E07BC66EF07951"
+        } ],
+        "OrphanCertificate" : [ ]
+      },
+      "Base64Encoded" : null,
+      "DigestAlgoAndValue" : {
+        "DigestMethod" : "SHA256",
+        "DigestValue" : "rjSG69zs8n4C7HOONWEaICOqIl1YoKRnuZ9VkGGnAY8=",
+        "match" : null
+      }
+    } ],
+    "Timestamp" : null,
+    "OrphanTokens" : null,
+    "SignerData" : null,
+    "TrustedList" : [ {
+      "Id" : "TL-53044736BF44D260472AE794EC1BEA9CDA6E2833864BD33D3C95E7EFA5F47A06",
+      "CountryCode" : "PT",
+      "Url" : "https://www.gns.gov.pt/media/1894/TSLPT.xml",
+      "SequenceNumber" : 70,
+      "Version" : 5,
+      "LastLoading" : "2022-01-09T15:35:40Z",
+      "IssueDate" : "2021-12-06T13:26:48Z",
+      "NextUpdate" : "2022-06-06T12:26:48Z",
+      "WellSigned" : true,
+      "LOTL" : null
+    }, {
+      "Id" : "LOTL-EC2AE37FE9A43B48B1CFE2A57EBEE2BD6373EDFF36537EB1BC905747ACBF4C3B",
+      "CountryCode" : "EU",
+      "Url" : "https://ec.europa.eu/tools/lotl/eu-lotl.xml",
+      "SequenceNumber" : 303,
+      "Version" : 5,
+      "LastLoading" : "2022-01-09T15:35:39Z",
+      "IssueDate" : "2021-12-21T08:00:27Z",
+      "NextUpdate" : "2022-06-20T07:00:27Z",
+      "WellSigned" : true,
+      "LOTL" : true
+    } ]
+  },
+  "simpleCertificateReport" : {
+    "ChainItem" : [ {
+      "id" : "C-C7A2A670C40EB3D952ABAF5A6F84E7DA9EF58C3662DF54774F2C350B5C95D8F3",
+      "subject" : {
+        "commonName" : "JEROEN ARNOLD L RATHE",
+        "surname" : "RATHE",
+        "givenName" : "JEROEN ARNOLD L",
+        "pseudonym" : null,
+        "organizationName" : "EUROPEAN COMMISSION",
+        "organizationUnit" : "Certificate Profile - Qualified Certificate - Member",
+        "email" : "jeroen.rathe@ec.europa.eu",
+        "locality" : null,
+        "state" : null,
+        "country" : "BE"
+      },
+      "issuerId" : "C-27BB49D206B6DEC161EBB8EA739530E90AC68498D2EEA05A7ED9603D1DCE0FD5",
+      "notBefore" : "2021-10-01T09:12:58Z",
+      "notAfter" : "2023-04-09T09:12:58Z",
+      "keyUsage" : [ "nonRepudiation" ],
+      "extendedKeyUsage" : [ "clientAuth", "emailProtection" ],
+      "ocspUrl" : [ "http://qca-g1.digitalsign.pt/ocsp" ],
+      "crlUrl" : [ "http://qca-g1.digitalsign.pt/DIGITALSIGNQUALIFIEDCAG1.crl" ],
+      "aiaUrl" : [ "http://qca-g1.digitalsign.pt/DIGITALSIGNQUALIFIEDCAG1.p7b" ],
+      "cpsUrl" : [ "http://pki.digitalsign.pt" ],
+      "pdsUrl" : null,
+      "qualificationAtIssuance" : "QC for eSig with QSCD",
+      "qualificationAtValidation" : "QC for eSig with QSCD",
+      "revocation" : {
+        "productionDate" : "2022-01-09T16:23:24Z",
+        "revocationDate" : null,
+        "revocationReason" : null
+      },
+      "trustAnchor" : null,
+      "Indication" : "PASSED",
+      "SubIndication" : null
+    }, {
+      "id" : "C-27BB49D206B6DEC161EBB8EA739530E90AC68498D2EEA05A7ED9603D1DCE0FD5",
+      "subject" : {
+        "commonName" : "DIGITALSIGN QUALIFIED CA G1",
+        "surname" : null,
+        "givenName" : null,
+        "pseudonym" : null,
+        "organizationName" : "DigitalSign Certificadora Digital",
+        "organizationUnit" : null,
+        "email" : null,
+        "locality" : null,
+        "state" : null,
+        "country" : "PT"
+      },
+      "issuerId" : "C-82BD5D851ACF7F6E1BA7BFCBC53030D0E7BC3C21DF772D858CAB41D199BDF595",
+      "notBefore" : "2021-01-22T10:11:50Z",
+      "notAfter" : "2033-01-19T10:11:50Z",
+      "keyUsage" : [ "keyCertSign", "crlSign" ],
+      "extendedKeyUsage" : [ "clientAuth", "emailProtection" ],
+      "ocspUrl" : null,
+      "crlUrl" : [ "http://root-rsa.digitalsign.pt/DIGITALSIGNGLOBALROOTRSACA.crl" ],
+      "aiaUrl" : [ "http://root-rsa.digitalsign.pt/DIGITALSIGNGLOBALROOTRSACA.p7b" ],
+      "cpsUrl" : [ "http://pki.digitalsign.pt" ],
+      "pdsUrl" : null,
+      "qualificationAtIssuance" : null,
+      "qualificationAtValidation" : null,
+      "revocation" : {
+        "productionDate" : null,
+        "revocationDate" : null,
+        "revocationReason" : null
+      },
+      "trustAnchor" : [ {
+        "countryCode" : "PT",
+        "trustServiceProvider" : "DigitalSign - Certificadora Digital",
+        "trustServiceProviderRegistrationId" : "VATPT-507015851",
+        "trustServiceName" : "DIGITALSIGN QUALIFIED CA G1"
+      } ],
+      "Indication" : "PASSED",
+      "SubIndication" : null
+    }, {
+      "id" : "C-82BD5D851ACF7F6E1BA7BFCBC53030D0E7BC3C21DF772D858CAB41D199BDF595",
+      "subject" : {
+        "commonName" : "DIGITALSIGN GLOBAL ROOT RSA CA",
+        "surname" : null,
+        "givenName" : null,
+        "pseudonym" : null,
+        "organizationName" : "DigitalSign Certificadora Digital",
+        "organizationUnit" : null,
+        "email" : null,
+        "locality" : null,
+        "state" : null,
+        "country" : "PT"
+      },
+      "issuerId" : null,
+      "notBefore" : "2021-01-21T10:50:34Z",
+      "notAfter" : "2046-01-15T10:50:34Z",
+      "keyUsage" : [ "keyCertSign", "crlSign" ],
+      "extendedKeyUsage" : null,
+      "ocspUrl" : null,
+      "crlUrl" : null,
+      "aiaUrl" : null,
+      "cpsUrl" : null,
+      "pdsUrl" : null,
+      "qualificationAtIssuance" : null,
+      "qualificationAtValidation" : null,
+      "revocation" : {
+        "productionDate" : null,
+        "revocationDate" : null,
+        "revocationReason" : null
+      },
+      "trustAnchor" : null,
+      "Indication" : "PASSED",
+      "SubIndication" : null
+    } ],
+    "ValidationTime" : "2022-01-09T16:23:24Z"
+  },
+  "detailedReport" : {
+    "signatureOrTimestampOrCertificate" : [ {
+      "Certificate" : {
+        "ValidationCertificateQualification" : [ {
+          "Constraint" : [ {
+            "Name" : {
+              "value" : "Is the certificate related to a CA/QC?",
+              "Key" : "QUAL_HAS_CAQC"
+            },
+            "Status" : "OK",
+            "Error" : null,
+            "Warning" : null,
+            "Info" : null,
+            "AdditionalInfo" : null,
+            "Id" : null,
+            "BlockType" : null
+          }, {
+            "Name" : {
+              "value" : "Is the trust service consistent?",
+              "Key" : "QUAL_TL_SERV_CONS"
+            },
+            "Status" : "OK",
+            "Error" : null,
+            "Warning" : null,
+            "Info" : null,
+            "AdditionalInfo" : "Trust service name : DIGITALSIGN QUALIFIED CA G1",
+            "Id" : null,
+            "BlockType" : null
+          }, {
+            "Name" : {
+              "value" : "Is the certificate related to a trust service with a granted status?",
+              "Key" : "QUAL_HAS_GRANTED"
+            },
+            "Status" : "OK",
+            "Error" : null,
+            "Warning" : null,
+            "Info" : null,
+            "AdditionalInfo" : null,
+            "Id" : null,
+            "BlockType" : null
+          }, {
+            "Name" : {
+              "value" : "Is the certificate related to a consistent trust service declaration?",
+              "Key" : "QUAL_HAS_CONSISTENT"
+            },
+            "Status" : "OK",
+            "Error" : null,
+            "Warning" : null,
+            "Info" : null,
+            "AdditionalInfo" : null,
+            "Id" : null,
+            "BlockType" : null
+          }, {
+            "Name" : {
+              "value" : "Can the certificate type be issued by a found trust service?",
+              "Key" : "QUAL_HAS_CERT_TYPE_COVERAGE"
+            },
+            "Status" : "OK",
+            "Error" : null,
+            "Warning" : null,
+            "Info" : null,
+            "AdditionalInfo" : null,
+            "Id" : null,
+            "BlockType" : null
+          }, {
+            "Name" : {
+              "value" : "Does the trusted certificate match the trust service?",
+              "Key" : "QUAL_IS_TRUST_CERT_MATCH_SERVICE"
+            },
+            "Status" : "OK",
+            "Error" : null,
+            "Warning" : null,
+            "Info" : null,
+            "AdditionalInfo" : null,
+            "Id" : null,
+            "BlockType" : null
+          }, {
+            "Name" : {
+              "value" : "Is the certificate qualified at issuance time?",
+              "Key" : "QUAL_QC_AT_CC"
+            },
+            "Status" : "OK",
+            "Error" : null,
+            "Warning" : null,
+            "Info" : null,
+            "AdditionalInfo" : null,
+            "Id" : null,
+            "BlockType" : null
+          }, {
+            "Name" : {
+              "value" : "Is the certificate type unambiguously identified at issuance time?",
+              "Key" : "QUAL_CERT_TYPE_AT_CC"
+            },
+            "Status" : "OK",
+            "Error" : null,
+            "Warning" : null,
+            "Info" : null,
+            "AdditionalInfo" : "Certificate type is for eSig",
+            "Id" : null,
+            "BlockType" : null
+          }, {
+            "Name" : {
+              "value" : "Does the private key reside in a QSCD at issuance time?",
+              "Key" : "QUAL_QSCD_AT_CC"
+            },
+            "Status" : "OK",
+            "Error" : null,
+            "Warning" : null,
+            "Info" : null,
+            "AdditionalInfo" : null,
+            "Id" : null,
+            "BlockType" : null
+          } ],
+          "Conclusion" : {
+            "Indication" : "PASSED",
+            "SubIndication" : null,
+            "Errors" : null,
+            "Warnings" : null,
+            "Infos" : null
+          },
+          "Title" : "Certificate Qualification at certificate issuance time",
+          "Id" : "C-C7A2A670C40EB3D952ABAF5A6F84E7DA9EF58C3662DF54774F2C350B5C95D8F3",
+          "DateTime" : "2021-10-01T09:12:58Z",
+          "ValidationTime" : "CERTIFICATE_ISSUANCE_TIME",
+          "CertificateQualification" : "QC for eSig with QSCD"
+        }, {
+          "Constraint" : [ {
+            "Name" : {
+              "value" : "Is the certificate related to a CA/QC?",
+              "Key" : "QUAL_HAS_CAQC"
+            },
+            "Status" : "OK",
+            "Error" : null,
+            "Warning" : null,
+            "Info" : null,
+            "AdditionalInfo" : null,
+            "Id" : null,
+            "BlockType" : null
+          }, {
+            "Name" : {
+              "value" : "Is the trust service consistent?",
+              "Key" : "QUAL_TL_SERV_CONS"
+            },
+            "Status" : "OK",
+            "Error" : null,
+            "Warning" : null,
+            "Info" : null,
+            "AdditionalInfo" : "Trust service name : DIGITALSIGN QUALIFIED CA G1",
+            "Id" : null,
+            "BlockType" : null
+          }, {
+            "Name" : {
+              "value" : "Is the certificate related to a trust service with a granted status?",
+              "Key" : "QUAL_HAS_GRANTED"
+            },
+            "Status" : "OK",
+            "Error" : null,
+            "Warning" : null,
+            "Info" : null,
+            "AdditionalInfo" : null,
+            "Id" : null,
+            "BlockType" : null
+          }, {
+            "Name" : {
+              "value" : "Is the certificate related to a consistent trust service declaration?",
+              "Key" : "QUAL_HAS_CONSISTENT"
+            },
+            "Status" : "OK",
+            "Error" : null,
+            "Warning" : null,
+            "Info" : null,
+            "AdditionalInfo" : null,
+            "Id" : null,
+            "BlockType" : null
+          }, {
+            "Name" : {
+              "value" : "Can the certificate type be issued by a found trust service?",
+              "Key" : "QUAL_HAS_CERT_TYPE_COVERAGE"
+            },
+            "Status" : "OK",
+            "Error" : null,
+            "Warning" : null,
+            "Info" : null,
+            "AdditionalInfo" : null,
+            "Id" : null,
+            "BlockType" : null
+          }, {
+            "Name" : {
+              "value" : "Does the trusted certificate match the trust service?",
+              "Key" : "QUAL_IS_TRUST_CERT_MATCH_SERVICE"
+            },
+            "Status" : "OK",
+            "Error" : null,
+            "Warning" : null,
+            "Info" : null,
+            "AdditionalInfo" : null,
+            "Id" : null,
+            "BlockType" : null
+          }, {
+            "Name" : {
+              "value" : "Is the certificate qualified at validation time?",
+              "Key" : "QUAL_QC_AT_VT"
+            },
+            "Status" : "OK",
+            "Error" : null,
+            "Warning" : null,
+            "Info" : null,
+            "AdditionalInfo" : null,
+            "Id" : null,
+            "BlockType" : null
+          }, {
+            "Name" : {
+              "value" : "Is the certificate type unambiguously identified at validation time?",
+              "Key" : "QUAL_CERT_TYPE_AT_VT"
+            },
+            "Status" : "OK",
+            "Error" : null,
+            "Warning" : null,
+            "Info" : null,
+            "AdditionalInfo" : "Certificate type is for eSig",
+            "Id" : null,
+            "BlockType" : null
+          }, {
+            "Name" : {
+              "value" : "Does the private key reside in a QSCD at validation time?",
+              "Key" : "QUAL_QSCD_AT_VT"
+            },
+            "Status" : "OK",
+            "Error" : null,
+            "Warning" : null,
+            "Info" : null,
+            "AdditionalInfo" : null,
+            "Id" : null,
+            "BlockType" : null
+          } ],
+          "Conclusion" : {
+            "Indication" : "PASSED",
+            "SubIndication" : null,
+            "Errors" : null,
+            "Warnings" : null,
+            "Infos" : null
+          },
+          "Title" : "Certificate Qualification at validation time",
+          "Id" : "C-C7A2A670C40EB3D952ABAF5A6F84E7DA9EF58C3662DF54774F2C350B5C95D8F3",
+          "DateTime" : "2022-01-09T16:23:24Z",
+          "ValidationTime" : "VALIDATION_TIME",
+          "CertificateQualification" : "QC for eSig with QSCD"
+        } ],
+        "Constraint" : [ {
+          "Name" : {
+            "value" : "Is the result of the Basic Building Block conclusive?",
+            "Key" : "BBB_ACCEPT"
+          },
+          "Status" : "OK",
+          "Error" : null,
+          "Warning" : null,
+          "Info" : null,
+          "AdditionalInfo" : null,
+          "Id" : null,
+          "BlockType" : null
+        }, {
+          "Name" : {
+            "value" : "Is the list of trusted lists acceptable?",
+            "Key" : "QUAL_LIST_OF_TRUSTED_LISTS_ACCEPT"
+          },
+          "Status" : "OK",
+          "Error" : null,
+          "Warning" : null,
+          "Info" : null,
+          "AdditionalInfo" : "Trusted List : https://ec.europa.eu/tools/lotl/eu-lotl.xml",
+          "Id" : "LOTL-EC2AE37FE9A43B48B1CFE2A57EBEE2BD6373EDFF36537EB1BC905747ACBF4C3B",
+          "BlockType" : null
+        }, {
+          "Name" : {
+            "value" : "Is the trusted list acceptable?",
+            "Key" : "QUAL_TRUSTED_LIST_ACCEPT"
+          },
+          "Status" : "OK",
+          "Error" : null,
+          "Warning" : null,
+          "Info" : null,
+          "AdditionalInfo" : "Trusted List : https://www.gns.gov.pt/media/1894/TSLPT.xml",
+          "Id" : "TL-53044736BF44D260472AE794EC1BEA9CDA6E2833864BD33D3C95E7EFA5F47A06",
+          "BlockType" : null
+        }, {
+          "Name" : {
+            "value" : "Has been an acceptable trusted list found?",
+            "Key" : "QUAL_VALID_TRUSTED_LIST_PRESENT"
+          },
+          "Status" : "OK",
+          "Error" : null,
+          "Warning" : null,
+          "Info" : null,
+          "AdditionalInfo" : null,
+          "Id" : null,
+          "BlockType" : null
+        } ],
+        "Conclusion" : {
+          "Indication" : "PASSED",
+          "SubIndication" : null,
+          "Errors" : [ ],
+          "Warnings" : [ ],
+          "Infos" : null
+        },
+        "Title" : "Certificate Qualification",
+        "Id" : "C-C7A2A670C40EB3D952ABAF5A6F84E7DA9EF58C3662DF54774F2C350B5C95D8F3"
+      }
+    } ],
+    "BasicBuildingBlocks" : [ {
+      "FC" : null,
+      "ISC" : null,
+      "VCI" : null,
+      "XCV" : {
+        "SubXCV" : [ {
+          "CrossCertificate" : null,
+          "EquivalentCertificate" : null,
+          "RAC" : [ {
+            "RevocationProductionDate" : "2022-01-09T16:23:24Z",
+            "Constraint" : [ {
+              "Name" : {
+                "value" : "Is the revocation status known?",
+                "Key" : "BBB_XCV_ISCUKN"
+              },
+              "Status" : "OK",
+              "Error" : null,
+              "Warning" : null,
+              "Info" : null,
+              "AdditionalInfo" : null,
+              "Id" : null,
+              "BlockType" : null
+            }, {
+              "Name" : {
+                "value" : "Is it not self issued OCSP Response?",
+                "Key" : "BBB_XCV_REVOC_SELF_ISSUED_OCSP"
+              },
+              "Status" : "OK",
+              "Error" : null,
+              "Warning" : null,
+              "Info" : null,
+              "AdditionalInfo" : null,
+              "Id" : null,
+              "BlockType" : null
+            }, {
+              "Name" : {
+                "value" : "Is the revocation data consistent?",
+                "Key" : "BBB_XCV_IRDC"
+              },
+              "Status" : "OK",
+              "Error" : null,
+              "Warning" : null,
+              "Info" : null,
+              "AdditionalInfo" : "Revocation thisUpdate 2022-01-09 16:23 is in the certificate validity range : 2021-10-01 09:12 - 2023-04-09 09:12",
+              "Id" : "R-AE3486EBDCECF27E02EC738E35611A2023AA225D58A0A467B99F559061A7018F",
+              "BlockType" : "REV_CC"
+            }, {
+              "Name" : {
+                "value" : "Is revocation's signature intact?",
+                "Key" : "BBB_CV_ISIR"
+              },
+              "Status" : "OK",
+              "Error" : null,
+              "Warning" : null,
+              "Info" : null,
+              "AdditionalInfo" : null,
+              "Id" : null,
+              "BlockType" : null
+            }, {
+              "Name" : {
+                "value" : "Can the certificate chain be built till a trust anchor?",
+                "Key" : "BBB_XCV_CCCBB"
+              },
+              "Status" : "OK",
+              "Error" : null,
+              "Warning" : null,
+              "Info" : null,
+              "AdditionalInfo" : null,
+              "Id" : null,
+              "BlockType" : null
+            }, {
+              "Name" : {
+                "value" : "Is certificate's signature intact?",
+                "Key" : "BBB_CV_ISIC"
+              },
+              "Status" : "OK",
+              "Error" : null,
+              "Warning" : null,
+              "Info" : null,
+              "AdditionalInfo" : "Id = C-C4D1E892E325AB641FA6111EB7D8115302D7BDD91807525EC0E07BC66EF07951",
+              "Id" : null,
+              "BlockType" : null
+            }, {
+              "Name" : {
+                "value" : "Has the issuer certificate id-pkix-ocsp-nocheck extension?",
+                "Key" : "BBB_XCV_OCSP_NO_CHECK"
+              },
+              "Status" : "OK",
+              "Error" : null,
+              "Warning" : null,
+              "Info" : null,
+              "AdditionalInfo" : null,
+              "Id" : null,
+              "BlockType" : null
+            } ],
+            "Conclusion" : {
+              "Indication" : "PASSED",
+              "SubIndication" : null,
+              "Errors" : [ ],
+              "Warnings" : [ ],
+              "Infos" : [ ]
+            },
+            "Title" : "Revocation Acceptance Checker",
+            "Id" : "R-AE3486EBDCECF27E02EC738E35611A2023AA225D58A0A467B99F559061A7018F"
+          } ],
+          "RFC" : {
+            "Constraint" : [ {
+              "Name" : {
+                "value" : "Is an acceptable revocation data present for the certificate?",
+                "Key" : "BBB_XCV_IARDPFC"
+              },
+              "Status" : "OK",
+              "Error" : null,
+              "Warning" : null,
+              "Info" : null,
+              "AdditionalInfo" : null,
+              "Id" : null,
+              "BlockType" : null
+            }, {
+              "Name" : {
+                "value" : "Is the revocation information fresh for the certificate?",
+                "Key" : "BBB_RFC_IRIF"
+              },
+              "Status" : "IGNORED",
+              "Error" : null,
+              "Warning" : null,
+              "Info" : null,
+              "AdditionalInfo" : null,
+              "Id" : null,
+              "BlockType" : null
+            }, {
+              "Name" : {
+                "value" : "Are cryptographic constraints met for the revocation data signature?",
+                "Key" : "ACCM"
+              },
+              "Status" : "OK",
+              "Error" : null,
+              "Warning" : null,
+              "Info" : null,
+              "AdditionalInfo" : "Signature algorithm RSA with SHA256 with key size 2048 at validation time : 2022-01-09 16:23",
+              "Id" : null,
+              "BlockType" : null
+            } ],
+            "Conclusion" : {
+              "Indication" : "PASSED",
+              "SubIndication" : null,
+              "Errors" : null,
+              "Warnings" : null,
+              "Infos" : null
+            },
+            "Title" : "Revocation Freshness Checker",
+            "Id" : "R-AE3486EBDCECF27E02EC738E35611A2023AA225D58A0A467B99F559061A7018F"
+          },
+          "RevocationInfo" : null,
+          "Constraint" : [ {
+            "Name" : {
+              "value" : "Is the certificate unique?",
+              "Key" : "QUAL_UNIQUE_CERT"
+            },
+            "Status" : "OK",
+            "Error" : null,
+            "Warning" : null,
+            "Info" : null,
+            "AdditionalInfo" : null,
+            "Id" : null,
+            "BlockType" : null
+          }, {
+            "Name" : {
+              "value" : "Is a pseudonym used?",
+              "Key" : "BBB_XCV_PSEUDO_USE"
+            },
+            "Status" : "OK",
+            "Error" : null,
+            "Warning" : null,
+            "Info" : null,
+            "AdditionalInfo" : null,
+            "Id" : null,
+            "BlockType" : null
+          }, {
+            "Name" : {
+              "value" : "Is certificate not self-signed?",
+              "Key" : "BBB_XCV_ISNSSC"
+            },
+            "Status" : "OK",
+            "Error" : null,
+            "Warning" : null,
+            "Info" : null,
+            "AdditionalInfo" : null,
+            "Id" : null,
+            "BlockType" : null
+          }, {
+            "Name" : {
+              "value" : "Is the certificate signature intact?",
+              "Key" : "BBB_XCV_ICSI"
+            },
+            "Status" : "OK",
+            "Error" : null,
+            "Warning" : null,
+            "Info" : null,
+            "AdditionalInfo" : null,
+            "Id" : null,
+            "BlockType" : null
+          }, {
+            "Name" : {
+              "value" : "Does the signer's certificate have an expected key-usage?",
+              "Key" : "BBB_XCV_ISCGKU"
+            },
+            "Status" : "OK",
+            "Error" : null,
+            "Warning" : null,
+            "Info" : null,
+            "AdditionalInfo" : "Key usage : [NON_REPUDIATION]",
+            "Id" : null,
+            "BlockType" : null
+          }, {
+            "Name" : {
+              "value" : "Is the authority info access present?",
+              "Key" : "BBB_XCV_AIA_PRES"
+            },
+            "Status" : "OK",
+            "Error" : null,
+            "Warning" : null,
+            "Info" : null,
+            "AdditionalInfo" : null,
+            "Id" : null,
+            "BlockType" : null
+          }, {
+            "Name" : {
+              "value" : "Is the revocation info access present?",
+              "Key" : "BBB_XCV_REVOC_PRES"
+            },
+            "Status" : "OK",
+            "Error" : null,
+            "Warning" : null,
+            "Info" : null,
+            "AdditionalInfo" : null,
+            "Id" : null,
+            "BlockType" : null
+          }, {
+            "Name" : {
+              "value" : "Is the revocation data present for the certificate?",
+              "Key" : "BBB_XCV_IRDPFC"
+            },
+            "Status" : "OK",
+            "Error" : null,
+            "Warning" : null,
+            "Info" : null,
+            "AdditionalInfo" : null,
+            "Id" : null,
+            "BlockType" : null
+          }, {
+            "Name" : {
+              "value" : "Is the revocation acceptance check conclusive?",
+              "Key" : "BBB_XCV_RAC"
+            },
+            "Status" : "OK",
+            "Error" : null,
+            "Warning" : null,
+            "Info" : null,
+            "AdditionalInfo" : "Id = R-AE3486EBDCECF27E02EC738E35611A2023AA225D58A0A467B99F559061A7018F, production time = 2022-01-09 16:23",
+            "Id" : "R-AE3486EBDCECF27E02EC738E35611A2023AA225D58A0A467B99F559061A7018F",
+            "BlockType" : "RAC"
+          }, {
+            "Name" : {
+              "value" : "Is the certificate not revoked?",
+              "Key" : "BBB_XCV_ISCR"
+            },
+            "Status" : "OK",
+            "Error" : null,
+            "Warning" : null,
+            "Info" : null,
+            "AdditionalInfo" : null,
+            "Id" : null,
+            "BlockType" : null
+          }, {
+            "Name" : {
+              "value" : "Is the certificate not on hold?",
+              "Key" : "BBB_XCV_ISCOH"
+            },
+            "Status" : "OK",
+            "Error" : null,
+            "Warning" : null,
+            "Info" : null,
+            "AdditionalInfo" : null,
+            "Id" : null,
+            "BlockType" : null
+          }, {
+            "Name" : {
+              "value" : "Is the revocation freshness check conclusive?",
+              "Key" : "BBB_XCV_RFC"
+            },
+            "Status" : "OK",
+            "Error" : null,
+            "Warning" : null,
+            "Info" : null,
+            "AdditionalInfo" : "Id = R-AE3486EBDCECF27E02EC738E35611A2023AA225D58A0A467B99F559061A7018F",
+            "Id" : "R-AE3486EBDCECF27E02EC738E35611A2023AA225D58A0A467B99F559061A7018F",
+            "BlockType" : "RFC"
+          }, {
+            "Name" : {
+              "value" : "Are cryptographic constraints met for the certificate chain?",
+              "Key" : "ACCM"
+            },
+            "Status" : "OK",
+            "Error" : null,
+            "Warning" : null,
+            "Info" : null,
+            "AdditionalInfo" : "Signature algorithm RSA with SHA512 with key size 4096 at validation time : 2022-01-09 16:23",
+            "Id" : null,
+            "BlockType" : null
+          }, {
+            "Name" : {
+              "value" : "Is the current time in the validity range of the signer's certificate?",
+              "Key" : "BBB_XCV_ICTIVRSC"
+            },
+            "Status" : "OK",
+            "Error" : null,
+            "Warning" : null,
+            "Info" : null,
+            "AdditionalInfo" : "Validation time : 2022-01-09 16:23, certificate validity : 2021-10-01 09:12 - 2023-04-09 09:12",
+            "Id" : null,
+            "BlockType" : null
+          }, {
+            "Name" : {
+              "value" : "Is the current time in the validity range of the certificate of the issuer of the revocation information?",
+              "Key" : "BBB_XCV_ICTIVRCIRI"
+            },
+            "Status" : "OK",
+            "Error" : null,
+            "Warning" : null,
+            "Info" : null,
+            "AdditionalInfo" : "Issuer certificate C-C4D1E892E325AB641FA6111EB7D8115302D7BDD91807525EC0E07BC66EF07951 of revocation data R-AE3486EBDCECF27E02EC738E35611A2023AA225D58A0A467B99F559061A7018F with validity range : 2021-01-28 10:30 - 2033-01-19 10:11 and validation time 2022-01-09 16:23",
+            "Id" : null,
+            "BlockType" : null
+          } ],
+          "Conclusion" : {
+            "Indication" : "PASSED",
+            "SubIndication" : null,
+            "Errors" : [ ],
+            "Warnings" : [ ],
+            "Infos" : [ ]
+          },
+          "Title" : "Certificate",
+          "Id" : "C-C7A2A670C40EB3D952ABAF5A6F84E7DA9EF58C3662DF54774F2C350B5C95D8F3",
+          "TrustAnchor" : false,
+          "SelfSigned" : false
+        }, {
+          "CrossCertificate" : null,
+          "EquivalentCertificate" : null,
+          "RAC" : [ ],
+          "RFC" : null,
+          "RevocationInfo" : null,
+          "Constraint" : [ ],
+          "Conclusion" : {
+            "Indication" : "PASSED",
+            "SubIndication" : null,
+            "Errors" : [ ],
+            "Warnings" : [ ],
+            "Infos" : [ ]
+          },
+          "Title" : "Certificate",
+          "Id" : "C-27BB49D206B6DEC161EBB8EA739530E90AC68498D2EEA05A7ED9603D1DCE0FD5",
+          "TrustAnchor" : true,
+          "SelfSigned" : false
+        } ],
+        "Constraint" : [ {
+          "Name" : {
+            "value" : "Can the certificate chain be built till a trust anchor?",
+            "Key" : "BBB_XCV_CCCBB"
+          },
+          "Status" : "OK",
+          "Error" : null,
+          "Warning" : null,
+          "Info" : null,
+          "AdditionalInfo" : null,
+          "Id" : null,
+          "BlockType" : null
+        }, {
+          "Name" : {
+            "value" : "Is the certificate validation conclusive?",
+            "Key" : "BBB_XCV_SUB"
+          },
+          "Status" : "OK",
+          "Error" : null,
+          "Warning" : null,
+          "Info" : null,
+          "AdditionalInfo" : null,
+          "Id" : "C-C7A2A670C40EB3D952ABAF5A6F84E7DA9EF58C3662DF54774F2C350B5C95D8F3",
+          "BlockType" : "SUB_XCV"
+        }, {
+          "Name" : {
+            "value" : "Is the certificate validation conclusive?",
+            "Key" : "BBB_XCV_SUB"
+          },
+          "Status" : "OK",
+          "Error" : null,
+          "Warning" : null,
+          "Info" : null,
+          "AdditionalInfo" : null,
+          "Id" : "C-27BB49D206B6DEC161EBB8EA739530E90AC68498D2EEA05A7ED9603D1DCE0FD5",
+          "BlockType" : "SUB_XCV"
+        } ],
+        "Conclusion" : {
+          "Indication" : "PASSED",
+          "SubIndication" : null,
+          "Errors" : [ ],
+          "Warnings" : [ ],
+          "Infos" : [ ]
+        },
+        "Title" : "X509 Certificate Validation"
+      },
+      "CV" : null,
+      "SAV" : null,
+      "PSV" : null,
+      "PCV" : null,
+      "VTS" : null,
+      "CertificateChain" : null,
+      "Conclusion" : {
+        "Indication" : "PASSED",
+        "SubIndication" : null,
+        "Errors" : null,
+        "Warnings" : [ ],
+        "Infos" : [ ]
+      },
+      "Id" : "C-C7A2A670C40EB3D952ABAF5A6F84E7DA9EF58C3662DF54774F2C350B5C95D8F3",
+      "Type" : "CERTIFICATE"
+    } ],
+    "TLAnalysis" : [ {
+      "Constraint" : [ {
+        "Name" : {
+          "value" : "Is the trusted list fresh?",
+          "Key" : "QUAL_TL_FRESH"
+        },
+        "Status" : "OK",
+        "Error" : null,
+        "Warning" : null,
+        "Info" : null,
+        "AdditionalInfo" : null,
+        "Id" : null,
+        "BlockType" : null
+      }, {
+        "Name" : {
+          "value" : "Is the trusted list not expired?",
+          "Key" : "QUAL_TL_EXP"
+        },
+        "Status" : "OK",
+        "Error" : null,
+        "Warning" : null,
+        "Info" : null,
+        "AdditionalInfo" : null,
+        "Id" : null,
+        "BlockType" : null
+      }, {
+        "Name" : {
+          "value" : "Does the trusted list have the expected version?",
+          "Key" : "QUAL_TL_VERSION"
+        },
+        "Status" : "OK",
+        "Error" : null,
+        "Warning" : null,
+        "Info" : null,
+        "AdditionalInfo" : null,
+        "Id" : null,
+        "BlockType" : null
+      }, {
+        "Name" : {
+          "value" : "Is the trusted list well signed?",
+          "Key" : "QUAL_TL_WS"
+        },
+        "Status" : "OK",
+        "Error" : null,
+        "Warning" : null,
+        "Info" : null,
+        "AdditionalInfo" : null,
+        "Id" : null,
+        "BlockType" : null
+      } ],
+      "Conclusion" : {
+        "Indication" : "PASSED",
+        "SubIndication" : null,
+        "Errors" : null,
+        "Warnings" : null,
+        "Infos" : null
+      },
+      "Title" : "List Of Trusted Lists EU",
+      "CountryCode" : "EU",
+      "URL" : "https://ec.europa.eu/tools/lotl/eu-lotl.xml",
+      "Id" : "LOTL-EC2AE37FE9A43B48B1CFE2A57EBEE2BD6373EDFF36537EB1BC905747ACBF4C3B"
+    }, {
+      "Constraint" : [ {
+        "Name" : {
+          "value" : "Is the trusted list fresh?",
+          "Key" : "QUAL_TL_FRESH"
+        },
+        "Status" : "OK",
+        "Error" : null,
+        "Warning" : null,
+        "Info" : null,
+        "AdditionalInfo" : null,
+        "Id" : null,
+        "BlockType" : null
+      }, {
+        "Name" : {
+          "value" : "Is the trusted list not expired?",
+          "Key" : "QUAL_TL_EXP"
+        },
+        "Status" : "OK",
+        "Error" : null,
+        "Warning" : null,
+        "Info" : null,
+        "AdditionalInfo" : null,
+        "Id" : null,
+        "BlockType" : null
+      }, {
+        "Name" : {
+          "value" : "Does the trusted list have the expected version?",
+          "Key" : "QUAL_TL_VERSION"
+        },
+        "Status" : "OK",
+        "Error" : null,
+        "Warning" : null,
+        "Info" : null,
+        "AdditionalInfo" : null,
+        "Id" : null,
+        "BlockType" : null
+      }, {
+        "Name" : {
+          "value" : "Is the trusted list well signed?",
+          "Key" : "QUAL_TL_WS"
+        },
+        "Status" : "OK",
+        "Error" : null,
+        "Warning" : null,
+        "Info" : null,
+        "AdditionalInfo" : null,
+        "Id" : null,
+        "BlockType" : null
+      } ],
+      "Conclusion" : {
+        "Indication" : "PASSED",
+        "SubIndication" : null,
+        "Errors" : null,
+        "Warnings" : null,
+        "Infos" : null
+      },
+      "Title" : "Trusted List PT",
+      "CountryCode" : "PT",
+      "URL" : "https://www.gns.gov.pt/media/1894/TSLPT.xml",
+      "Id" : "TL-53044736BF44D260472AE794EC1BEA9CDA6E2833864BD33D3C95E7EFA5F47A06"
+    } ],
+    "Semantic" : null,
+    "ValidationTime" : null
+  }
+}
