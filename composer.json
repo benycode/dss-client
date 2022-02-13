@@ -1,5 +1,5 @@
 {
-    "name": "dss/client",
+    "name": "benycode/dss",
     "description": "DSS API client for PHP",
     "keywords": ["dss", "digital signature", "signature verify"],
     "license": "MIT",
